@@ -17,8 +17,8 @@ modules:
     buildsystem: simple
     sources:
       - type: archive
-        url: https://github.com/mlm-games/plutonic/releases/download/1.0.4/web.zip
-        sha256: d7d8bf61184a6faf1c2b2beb86995d25c040208567a1e7e65c3ae1f8c5d1d60a
+        url: https://github.com/mlm-games/plutonic/releases/download/1.1.0/web.zip
+        sha256: 74b4c4ad0a240dc4a1ba3bdb8e1a41fb5bac9d050ff9d0c409c7c9104d2be7ee
         dest: web
         x-checker-data:
           type: json
