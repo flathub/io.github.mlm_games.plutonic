@@ -17,8 +17,8 @@ modules:
     buildsystem: simple
     sources:
       - type: archive
-        url: https://github.com/mlm-games/plutonic/releases/download/1.1.1/web.zip
-        sha256: 372df431ad7aef285f88229a0843272b8e31f68362bb7d50411274af854501c1
+        url: https://github.com/mlm-games/plutonic/releases/download/1.1.2/web.zip
+        sha256: 0d03624d0cf9e071671ce5dd780e09c41fbaec3aefb1b439bfd802c7dc58efee
         dest: web
         x-checker-data:
           type: json
@@ -32,8 +32,8 @@ modules:
 
       - type: git
         url: https://github.com/mlm-games/plutonic.git
-        tag: 1.0.3
-        commit: 517da6ff9e03107d2a6b868b2e62616e94185d2d
+        tag: 1.1.2
+        commit: cbebc48f7f913c42597e0cad002a828c9a46d9f6
         x-checker-data:
           type: git
           tag-pattern: ^[0-9]+\.[0-9]+\.[0-9]+$
